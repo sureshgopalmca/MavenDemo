@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 	
-	@GetMapping("/app")
+	@GetMapping("/")
 	String hello() {
 		return "Welcome to Jenkins";
 	}
